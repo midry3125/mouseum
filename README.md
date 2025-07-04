@@ -1,6 +1,6 @@
 # What is this?
 This is references manager.
-When you work, you often refer some materials, but those files are usually messy.
+When you work, you often refer to some materials, but those files are usually messy.
 This tool solve that.
 
 # How to install
