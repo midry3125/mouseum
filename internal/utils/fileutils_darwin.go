@@ -9,7 +9,5 @@ func OpenFileWithStandard(path string) {
 	if !Exists(path) {
 		RaiseError(filepath.Base(path) + " does not exist.")
 	}
-	os.StartProcess("open", []string{path}, &os.ProcAttr{
-		Setpgid: true,
-	})
+	os.StartProcess("open", []string{path}, &os.ProcAttr{})
 }
